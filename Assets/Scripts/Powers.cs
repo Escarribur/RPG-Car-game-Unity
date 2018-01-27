@@ -59,13 +59,16 @@ public class Powers : MonoBehaviour {
         }
     }
 
-    IEnumerator Animation(Animator ani)
+    IEnumerator Animation(Transform anim)
     {
+        Animator ani = anim.GetComponent<Animator>();
+        anim.GetComponent<SpriteRenderer>().enabled = true;
         for (float f = 2f; f >= 0 ; f-=0.1f)
         {
             ani.enabled = true;
             yield return null;
         }
+        anim.GetComponent<SpriteRenderer>().enabled = false;
         ani.enabled = false;
         
         yield return null;
@@ -170,7 +173,7 @@ public class Powers : MonoBehaviour {
 
             //Este hace visible la llamarada
             
-            StartCoroutine(Animation(this.transform.GetChild(0).GetComponent<Animator>()));
+            StartCoroutine(Animation(this.transform.GetChild(0)));
             //this.GetComponentInChildren<Animator>().enabled = true;
             //Debug.Log("Active? " + gameObject.activeInHierarchy);
             //Este es el intento de activar el Player
