@@ -9,6 +9,10 @@ public class CarMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         autos = GameObject.Find("GameController").GetComponent<GameController>().autos;
+        foreach(GameObject auto in autos)
+        {
+            auto.GetComponent<BoxCollider2D>().size = auto.GetComponent<SpriteRenderer>().size;
+        }
 	}
 	
 	// Update is called once per frame

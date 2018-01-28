@@ -1,0 +1,3692 @@
+fileFormatVersion: 2
+guid: 6a35b5f671770e642839fc0f8c4c5fd2
+timeCreated: 1517098516
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bunch of cars_0
+    21300002: bunch of cars_1
+    21300004: bunch of cars_2
+    21300006: bunch of cars_3
+    21300008: bunch of cars_4
+    21300010: bunch of cars_5
+    21300012: bunch of cars_6
+    21300014: bunch of cars_7
+    21300016: bunch of cars_8
+    21300018: bunch of cars_9
+    21300020: bunch of cars_10
+    21300022: bunch of cars_11
+    21300024: bunch of cars_12
+    21300026: bunch of cars_13
+    21300028: bunch of cars_14
+    21300030: bunch of cars_15
+    21300032: bunch of cars_16
+    21300034: bunch of cars_17
+    21300036: bunch of cars_18
+    21300038: bunch of cars_19
+    21300040: bunch of cars_20
+    21300042: bunch of cars_21
+    21300044: bunch of cars_22
+    21300046: bunch of cars_23
+    21300048: bunch of cars_24
+    21300050: bunch of cars_25
+    21300052: bunch of cars_26
+    21300054: bunch of cars_27
+    21300056: bunch of cars_28
+    21300058: bunch of cars_29
+    21300060: bunch of cars_30
+    21300062: bunch of cars_31
+    21300064: bunch of cars_32
+    21300066: bunch of cars_33
+    21300068: bunch of cars_34
+    21300070: bunch of cars_35
+    21300072: bunch of cars_36
+    21300074: bunch of cars_37
+    21300076: bunch of cars_38
+    21300078: bunch of cars_39
+    21300080: bunch of cars_40
+    21300082: bunch of cars_41
+    21300084: bunch of cars_42
+    21300086: bunch of cars_43
+    21300088: bunch of cars_44
+    21300090: bunch of cars_45
+    21300092: bunch of cars_46
+    21300094: bunch of cars_47
+    21300096: bunch of cars_48
+    21300098: bunch of cars_49
+    21300100: bunch of cars_50
+    21300102: bunch of cars_51
+    21300104: bunch of cars_52
+    21300106: bunch of cars_53
+    21300108: bunch of cars_54
+    21300110: bunch of cars_55
+    21300112: bunch of cars_56
+    21300114: bunch of cars_57
+    21300116: bunch of cars_58
+    21300118: bunch of cars_59
+    21300120: bunch of cars_60
+    21300122: bunch of cars_61
+    21300124: bunch of cars_62
+    21300126: bunch of cars_63
+    21300128: bunch of cars_64
+    21300130: bunch of cars_65
+    21300132: bunch of cars_66
+    21300134: bunch of cars_67
+    21300136: bunch of cars_68
+    21300138: bunch of cars_69
+    21300140: bunch of cars_70
+    21300142: bunch of cars_71
+    21300144: bunch of cars_72
+    21300146: bunch of cars_73
+    21300148: bunch of cars_74
+    21300150: bunch of cars_75
+    21300152: bunch of cars_76
+    21300154: bunch of cars_77
+    21300156: bunch of cars_78
+    21300158: bunch of cars_79
+    21300160: bunch of cars_80
+    21300162: bunch of cars_81
+    21300164: bunch of cars_82
+    21300166: bunch of cars_83
+    21300168: bunch of cars_84
+    21300170: bunch of cars_85
+    21300172: bunch of cars_86
+    21300174: bunch of cars_87
+    21300176: bunch of cars_88
+    21300178: bunch of cars_89
+    21300180: bunch of cars_90
+    21300182: bunch of cars_91
+    21300184: bunch of cars_92
+    21300186: bunch of cars_93
+    21300188: bunch of cars_94
+    21300190: bunch of cars_95
+    21300192: bunch of cars_96
+    21300194: bunch of cars_97
+    21300196: bunch of cars_98
+    21300198: bunch of cars_99
+    21300200: bunch of cars_100
+    21300202: bunch of cars_101
+    21300204: bunch of cars_102
+    21300206: bunch of cars_103
+    21300208: bunch of cars_104
+    21300210: bunch of cars_105
+    21300212: bunch of cars_106
+    21300214: bunch of cars_107
+    21300216: bunch of cars_108
+    21300218: bunch of cars_109
+    21300220: bunch of cars_110
+    21300222: bunch of cars_111
+    21300224: bunch of cars_112
+    21300226: bunch of cars_113
+    21300228: bunch of cars_114
+    21300230: bunch of cars_115
+    21300232: bunch of cars_116
+    21300234: bunch of cars_117
+    21300236: bunch of cars_118
+    21300238: bunch of cars_119
+    21300240: bunch of cars_120
+    21300242: bunch of cars_121
+    21300244: bunch of cars_122
+    21300246: bunch of cars_123
+    21300248: bunch of cars_124
+    21300250: bunch of cars_125
+    21300252: bunch of cars_126
+    21300254: bunch of cars_127
+    21300256: bunch of cars_128
+    21300258: bunch of cars_129
+    21300260: bunch of cars_130
+    21300262: bunch of cars_131
+    21300264: bunch of cars_132
+    21300266: bunch of cars_133
+    21300268: bunch of cars_134
+    21300270: bunch of cars_135
+    21300272: bunch of cars_136
+    21300274: bunch of cars_137
+    21300276: bunch of cars_138
+    21300278: bunch of cars_139
+    21300280: bunch of cars_140
+    21300282: bunch of cars_141
+    21300284: bunch of cars_142
+    21300286: bunch of cars_143
+    21300288: bunch of cars_144
+    21300290: bunch of cars_145
+    21300292: bunch of cars_146
+    21300294: bunch of cars_147
+    21300296: bunch of cars_148
+    21300298: bunch of cars_149
+    21300300: bunch of cars_150
+    21300302: bunch of cars_151
+    21300304: bunch of cars_152
+    21300306: bunch of cars_153
+    21300308: bunch of cars_154
+    21300310: bunch of cars_155
+    21300312: bunch of cars_156
+    21300314: bunch of cars_157
+    21300316: bunch of cars_158
+    21300318: bunch of cars_159
+    21300320: bunch of cars_160
+    21300322: bunch of cars_161
+    21300324: bunch of cars_162
+    21300326: bunch of cars_163
+    21300328: bunch of cars_164
+    21300330: bunch of cars_165
+    21300332: bunch of cars_166
+    21300334: bunch of cars_167
+    21300336: bunch of cars_168
+    21300338: bunch of cars_169
+    21300340: bunch of cars_170
+    21300342: bunch of cars_171
+    21300344: bunch of cars_172
+    21300346: bunch of cars_173
+    21300348: bunch of cars_174
+    21300350: bunch of cars_175
+    21300352: bunch of cars_176
+    21300354: bunch of cars_177
+    21300356: bunch of cars_178
+    21300358: bunch of cars_179
+    21300360: bunch of cars_180
+    21300362: bunch of cars_181
+    21300364: bunch of cars_182
+    21300366: bunch of cars_183
+    21300368: bunch of cars_184
+    21300370: bunch of cars_185
+    21300372: bunch of cars_186
+    21300374: bunch of cars_187
+    21300376: bunch of cars_188
+    21300378: bunch of cars_189
+    21300380: bunch of cars_190
+    21300382: bunch of cars_191
+    21300384: bunch of cars_192
+    21300386: bunch of cars_193
+    21300388: bunch of cars_194
+    21300390: bunch of cars_195
+    21300392: bunch of cars_196
+    21300394: bunch of cars_197
+    21300396: bunch of cars_198
+    21300398: bunch of cars_199
+    21300400: bunch of cars_200
+    21300402: bunch of cars_201
+    21300404: bunch of cars_202
+    21300406: bunch of cars_203
+    21300408: bunch of cars_204
+    21300410: bunch of cars_205
+    21300412: bunch of cars_206
+    21300414: bunch of cars_207
+    21300416: bunch of cars_208
+    21300418: bunch of cars_209
+    21300420: bunch of cars_210
+    21300422: bunch of cars_211
+    21300424: bunch of cars_212
+    21300426: bunch of cars_213
+    21300428: bunch of cars_214
+    21300430: bunch of cars_215
+    21300432: bunch of cars_216
+    21300434: bunch of cars_217
+    21300436: bunch of cars_218
+    21300438: bunch of cars_219
+    21300440: bunch of cars_220
+    21300442: bunch of cars_221
+    21300444: bunch of cars_222
+    21300446: bunch of cars_223
+    21300448: bunch of cars_224
+    21300450: bunch of cars_225
+    21300452: bunch of cars_226
+    21300454: bunch of cars_227
+    21300456: bunch of cars_228
+    21300458: bunch of cars_229
+    21300460: bunch of cars_230
+    21300462: bunch of cars_231
+    21300464: bunch of cars_232
+    21300466: bunch of cars_233
+    21300468: bunch of cars_234
+    21300470: bunch of cars_235
+    21300472: bunch of cars_236
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunch of cars_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 817
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 817
+        width: 78
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 817
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 817
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 817
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 817
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 817
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 817
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_8
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 817
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_9
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 817
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 770
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 770
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_12
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 770
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_13
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 770
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 770
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 770
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 770
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_17
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 770
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_18
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 770
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_19
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 770
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_20
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 770
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_21
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 817
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_22
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 817
+        width: 78
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 817
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_24
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 770
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 725
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 725
+        width: 77
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 725
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_28
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 725
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_29
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 725
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_30
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 725
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_31
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 725
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 725
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_33
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 725
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_34
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 725
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_35
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 725
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_36
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 725
+        width: 77
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_37
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 725
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 680
+        width: 77
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_39
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 680
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_40
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 680
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_41
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 680
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 680
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_43
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 680
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_44
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 680
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_45
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 680
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_46
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 680
+        width: 77
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 638
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_48
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 638
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_49
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 638
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_50
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 638
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_51
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 638
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_52
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 638
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_53
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 638
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_54
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 638
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_55
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 638
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_56
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 638
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_57
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 638
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 638
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_59
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 638
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_60
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 595
+        width: 76
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_61
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 595
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_62
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 595
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_63
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 595
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_64
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 595
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_65
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 595
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_66
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 595
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_67
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 595
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_68
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 595
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_69
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 595
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_70
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 595
+        width: 76
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_71
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 556
+        width: 79
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_72
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 556
+        width: 78
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_73
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 556
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_74
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 556
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_75
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 556
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_76
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 556
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_77
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 556
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_78
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 556
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_79
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 556
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_80
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 556
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_81
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 556
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_82
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 556
+        width: 78
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_83
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 556
+        width: 79
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 517
+        width: 77
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_85
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 517
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_86
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 517
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_87
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 517
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_88
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 517
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_89
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 517
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_90
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 517
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_91
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 517
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_92
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 517
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_93
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 517
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_94
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 517
+        width: 77
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_95
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 476
+        width: 76
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_96
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 476
+        width: 73
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_97
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 476
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_98
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 476
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_99
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 476
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_100
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 476
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_101
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 476
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_102
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 476
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_103
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 476
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_104
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 476
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_105
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 476
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_106
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 476
+        width: 73
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_107
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 476
+        width: 76
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_108
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 435
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 435
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_110
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 435
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_111
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 435
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_112
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 435
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_113
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 435
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_114
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 435
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_115
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 435
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_116
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 435
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_117
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 435
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_118
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 435
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_119
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 397
+        width: 80
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_120
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 397
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_121
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 397
+        width: 63
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_122
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 397
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_123
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 397
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 397
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_125
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 397
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_126
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 397
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_127
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 397
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_128
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 397
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_129
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 397
+        width: 63
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_130
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 397
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_131
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 397
+        width: 80
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_132
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 356
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_133
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 356
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_134
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 356
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_135
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 356
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_136
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 356
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_137
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 356
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_138
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 356
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_139
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 356
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_140
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 356
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_141
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 356
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_142
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 356
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_143
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 315
+        width: 80
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_144
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 315
+        width: 69
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_145
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 315
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_146
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 315
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_147
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 315
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_148
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 315
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_149
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 315
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_150
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 315
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_151
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 315
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_152
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 315
+        width: 69
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_153
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 315
+        width: 80
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_154
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 273
+        width: 78
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_155
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 273
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_156
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 273
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_157
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 273
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_158
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 273
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_159
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 273
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_160
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 273
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_161
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 273
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_162
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 273
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_163
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 273
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_164
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 273
+        width: 78
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_165
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 227
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_166
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 227
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_167
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 227
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_168
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 227
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_169
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 227
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_170
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 227
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_171
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 227
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_172
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 227
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_173
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 227
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_174
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 227
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_175
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 227
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_176
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 227
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_177
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 227
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_178
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 177
+        width: 79
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_179
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 177
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_180
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 177
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_181
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 177
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_182
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 177
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_183
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 177
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_184
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 177
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_185
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 177
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_186
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 177
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_187
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 177
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_188
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 177
+        width: 79
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_189
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 138
+        width: 80
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_190
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 138
+        width: 77
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_191
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 138
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_192
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 138
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_193
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 138
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_194
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 138
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_195
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 138
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_196
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 138
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_197
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 138
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_198
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 138
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_199
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 138
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_200
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 138
+        width: 77
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_201
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 138
+        width: 80
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_202
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 98
+        width: 78
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_203
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 98
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_204
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 98
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_205
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 98
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_206
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 98
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_207
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 98
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_208
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 98
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_209
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 98
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_210
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 98
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_211
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 98
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_212
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 98
+        width: 78
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_213
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 53
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_214
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 53
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_215
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 53
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_216
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 53
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_217
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 53
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_218
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 53
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_219
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 53
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_220
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 53
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_221
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 53
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_222
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 53
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_223
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 53
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_224
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 53
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_225
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 53
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_226
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 9
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_227
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 9
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_228
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 9
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_229
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 9
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_230
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 9
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_231
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 9
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_232
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 9
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_233
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 9
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_234
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 9
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_235
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 9
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bunch of cars_236
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 9
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
