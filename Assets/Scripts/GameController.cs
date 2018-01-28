@@ -110,6 +110,11 @@ public class GameController : MonoBehaviour {
         player.GetComponent<Powers>().Kamikaze();
     }
 
+    public void Laser()
+    {
+        player.GetComponent<Powers>().Laser();
+    }
+
     //inicializa valores nivel
     void Level01()
     {
