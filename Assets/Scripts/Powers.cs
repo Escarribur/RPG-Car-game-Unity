@@ -90,6 +90,20 @@ public class Powers : MonoBehaviour {
 
     }
 
+    IEnumerator WaitAnimationForSecs(Transform anim, float sec)
+    {
+        Animator ani = anim.GetComponent<Animator>();
+        SpriteRenderer spriRend = anim.GetComponent<SpriteRenderer>();
+
+        ani.enabled = true;
+        spriRend.enabled = true;
+        yield return new WaitForSeconds(sec);
+        ani.enabled = false;
+        spriRend.enabled = false;
+        powerUsing = false;
+
+    }
+
 
 
     //Habilidades ======================================================================
@@ -350,28 +364,39 @@ public class Powers : MonoBehaviour {
 
     public void Laser()
     {
-        GameObject[] cars = GameObject.FindGameObjectsWithTag("car");
-        float random1;
-        float random2;
-        for (int i = 0; i < cars.Length; i++)
+        if (powerUsing == true)
         {
-            random1 = Random.Range(0, cars.Length - 1);
-            random2 = Random.Range(0, cars.Length - 1);
-            GetComponent<CarMovement>().Swap2(cars[(int)random1], cars[(int)random2]);
-        }
-        random1 = Random.Range(-cars.Length, cars.Length - 1);
-        if (random1 >= 0)
-        {
-            for (int i = 0; i < random1; i++)
-            {
-                GetComponent<CarMovement>().MoveFoward();
-            }
+            Debug.Log("Ya usaste esta habilidad");
         }
         else
         {
-            for (int i = 0; i > random1; i--)
+            powerUsing = true;
+            //Realiza la animación antes de ejecutar el poder
+            StartCoroutine(WaitAnimationForSecs(this.transform.GetChild(2), 5f));
+
+            GameObject[] cars = GameObject.FindGameObjectsWithTag("car");
+            float random1;
+            float random2;
+            for (int i = 0; i < cars.Length; i++)
             {
-                GetComponent<CarMovement>().MoveBack();
+                random1 = Random.Range(0, cars.Length - 1);
+                random2 = Random.Range(0, cars.Length - 1);
+                GetComponent<CarMovement>().Swap2(cars[(int)random1], cars[(int)random2]);
+            }
+            random1 = Random.Range(-cars.Length, cars.Length - 1);
+            if (random1 >= 0)
+            {
+                for (int i = 0; i < random1; i++)
+                {
+                    GetComponent<CarMovement>().MoveFoward();
+                }
+            }
+            else
+            {
+                for (int i = 0; i > random1; i--)
+                {
+                    GetComponent<CarMovement>().MoveBack();
+                }
             }
         }
     }
