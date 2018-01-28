@@ -100,11 +100,15 @@ public class GameController : MonoBehaviour {
         player.GetComponent<Powers>().Escarcha();
     }
 
+    public void SteelShield()
+    {
+        player.GetComponent<Powers>().SteelShield();
+    }
 
     //inicializa valores nivel
     void Level01()
     {
-        player.GetComponent<CarStats>().SetCarStats("R8", 12, 6, 22, 5, 5, 100, 1);
+        player.GetComponent<CarStats>().SetCarStats("R8", 12, 6, 22, 5, 5, 100, 0);
         player.GetComponent<DriverStats>().SetPlayerStats("Escar", 30, 4, 60, 80, 60, 100);
         int i = 0;
         foreach (GameObject car in autos)
@@ -183,6 +187,10 @@ public class GameController : MonoBehaviour {
             if (stat.name == "Text (6)")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().integrity.ToString();
+            }
+            if (stat.name == "ValorEscudo")
+            {
+                stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().shields.ToString();
             }
         }
     }
