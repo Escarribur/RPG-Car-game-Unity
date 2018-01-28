@@ -9,6 +9,7 @@ TagManager:
   - stat2
   - Flame
   - Turbo
+  - Panel
   layers:
   - Default
   - TransparentFX

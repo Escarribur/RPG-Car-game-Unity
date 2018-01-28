@@ -6,6 +6,10 @@ public class GameController : MonoBehaviour {
 
     public List<GameObject> autos;
     public GameObject player;
+    public GameObject accionPanel;
+    public GameObject offenssivePanel;
+    public GameObject defensivePanel;
+    public GameObject preparationPanel;
 
 	// Use this for initialization
 
@@ -16,6 +20,8 @@ public class GameController : MonoBehaviour {
         }
         player = GameObject.FindGameObjectWithTag("Player");
         autos.Add(player);
+        
+
         Level01();
 	}
 	
@@ -33,6 +39,27 @@ public class GameController : MonoBehaviour {
         DrawAttribute();
     }
 
+    //utilities
+    void ActiveDeactivePanel(GameObject panel1, GameObject panel2)
+    {
+        panel1.SetActive(true);
+        panel2.SetActive(false);
+    }
+
+    public void OffensivePanel()
+    {
+        ActiveDeactivePanel(offenssivePanel, accionPanel);
+    }
+
+    public void DefensivePanel()
+    {
+        ActiveDeactivePanel(defensivePanel, accionPanel);
+    }
+
+    public void PreparationPanel()
+    {
+        ActiveDeactivePanel(preparationPanel, accionPanel);
+    }
 
     //LLamada desde los botones =====================
     public void MoveFoward()
@@ -48,71 +75,85 @@ public class GameController : MonoBehaviour {
     public void Focus()
     {
         player.GetComponent<Powers>().Concentracion();
+        ActiveDeactivePanel(accionPanel, preparationPanel);
     }
 
     public void SmokeWall()
     {
         player.GetComponent<Powers>().Humo();
+        ActiveDeactivePanel(accionPanel, defensivePanel);
     }
 
     public void Hook()
     {
         player.GetComponent<Powers>().Hook();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void UkeleleNoise()
     {
         player.GetComponent<Powers>().UkeleleNoise();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void OilTrace()
     {
         player.GetComponent<Powers>().Aceite();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void SpeedBurst()
     {
         player.GetComponent<Powers>().SpeedBurst();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void NinjaTechnique()
     {
         player.GetComponent<Powers>().TecnicaNinja();
+        ActiveDeactivePanel(accionPanel, preparationPanel);
     }
 
     public void NoBrakes()
     {
         player.GetComponent<Powers>().NoBrakes();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void MachineGun()
     {
         player.GetComponent<Powers>().Ametralladora();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void Flamethrower()
     {
         player.GetComponent<Powers>().LanzaLLamas();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void IcyRoad()
     {
         player.GetComponent<Powers>().Escarcha();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void SteelShield()
     {
         player.GetComponent<Powers>().SteelShield();
+        ActiveDeactivePanel(accionPanel, defensivePanel);
     }
 
     public void Kamikaze()
     {
         player.GetComponent<Powers>().Kamikaze();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     public void Laser()
     {
         player.GetComponent<Powers>().Laser();
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
     //inicializa valores nivel
@@ -142,27 +183,27 @@ public class GameController : MonoBehaviour {
         GameObject[] stats2 = GameObject.FindGameObjectsWithTag("stat2");
         foreach (var stat in stats)
         {
-            if (stat.name == "Text")
+            if (stat.name == "LevelValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<DriverStats>().level.ToString();
             }
-            if (stat.name == "Text (1)")
+            if (stat.name == "AgilityValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<DriverStats>().agility.ToString();
             }
-            if (stat.name == "Text (2)")
+            if (stat.name == "ReflexValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<DriverStats>().reflex.ToString();
             }
-            if (stat.name == "Text (3)")
+            if (stat.name == "SelfControlValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<DriverStats>().selfControl.ToString();
             }
-            if (stat.name == "Text (4)")
+            if (stat.name == "HasteValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<DriverStats>().haste.ToString();
             }
-            if (stat.name == "Text (5)")
+            if (stat.name == "MoneyValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<DriverStats>().money.ToString();
             }
@@ -170,35 +211,35 @@ public class GameController : MonoBehaviour {
 
         foreach (var stat in stats2)
         {
-            if (stat.name == "Text")
+            if (stat.name == "ModelValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().carName.ToString();
             }
-            if (stat.name == "Text (1)")
+            if (stat.name == "VelocityValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().velocity.ToString();
             }
-            if (stat.name == "Text (2)")
+            if (stat.name == "ControlValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().agarre.ToString();
             }
-            if (stat.name == "Text (3)")
+            if (stat.name == "AccelerationValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().aceleracion.ToString();
             }
-            if (stat.name == "Text (4)")
+            if (stat.name == "BrakesValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().frenos.ToString();
             }
-            if (stat.name == "Text (5)")
+            if (stat.name == "NitroValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().nitroso.ToString();
             }
-            if (stat.name == "Text (6)")
+            if (stat.name == "IntegrityValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().integrity.ToString();
             }
-            if (stat.name == "ValorEscudo")
+            if (stat.name == "ShieldValue")
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().shields.ToString();
             }

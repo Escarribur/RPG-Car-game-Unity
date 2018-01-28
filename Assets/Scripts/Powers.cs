@@ -90,21 +90,6 @@ public class Powers : MonoBehaviour {
 
     }
 
-    IEnumerator WaitAnimationForSecs(Transform anim, float sec)
-    {
-        Animator ani = anim.GetComponent<Animator>();
-        SpriteRenderer spriRend = anim.GetComponent<SpriteRenderer>();
-
-        ani.enabled = true;
-        spriRend.enabled = true;
-        yield return new WaitForSeconds(sec);
-        ani.enabled = false;
-        spriRend.enabled = false;
-        //Revisar esto, para el caso de los demás poderes
-        powerUsing = false;
-
-    }
-
 
 
     //Habilidades ======================================================================
@@ -205,7 +190,12 @@ public class Powers : MonoBehaviour {
             //Este hace visible la llamarada
             
             StartCoroutine(Animation(this.transform.GetChild(0)));
-            
+            //this.GetComponentInChildren<Animator>().enabled = true;
+            //Debug.Log("Active? " + gameObject.activeInHierarchy);
+            //Este es el intento de activar el Player
+            //GameObject.FindGameObjectWithTag("Player").SetActive(true);
+            //ACA está la llamada de la corutina    
+            //StartCoroutine(GameObject.FindGameObjectWithTag("Flame").GetComponent<FlamethrowerPlayer>().Flaming());
         }
         if (effect == 1)
         {
@@ -360,42 +350,29 @@ public class Powers : MonoBehaviour {
 
     public void Laser()
     {
-        if (powerUsing == true)
+        GameObject[] cars = GameObject.FindGameObjectsWithTag("car");
+        float random1;
+        float random2;
+        for (int i = 0; i < cars.Length; i++)
         {
-            Debug.Log("Ya usaste esta habilidad");
+            random1 = Random.Range(0, cars.Length - 1);
+            random2 = Random.Range(0, cars.Length - 1);
+            GetComponent<CarMovement>().Swap2(cars[(int)random1], cars[(int)random2]);
+        }
+        random1 = Random.Range(-cars.Length, cars.Length - 1);
+        if (random1 >= 0)
+        {
+            for (int i = 0; i < random1; i++)
+            {
+                GetComponent<CarMovement>().MoveFoward();
+            }
         }
         else
         {
-            powerUsing = true;
-            //Realiza la animación antes de ejecutar el poder
-            StartCoroutine(WaitAnimationForSecs(this.transform.GetChild(2), 5f));
-
-            GameObject[] cars = GameObject.FindGameObjectsWithTag("car");
-            float random1;
-            float random2;
-            for (int i = 0; i < cars.Length; i++)
+            for (int i = 0; i > random1; i--)
             {
-                random1 = Random.Range(0, cars.Length - 1);
-                random2 = Random.Range(0, cars.Length - 1);
-                GetComponent<CarMovement>().Swap2(cars[(int)random1], cars[(int)random2]);
-            }
-            random1 = Random.Range(-cars.Length, cars.Length - 1);
-            if (random1 >= 0)
-            {
-                for (int i = 0; i < random1; i++)
-                {
-                    GetComponent<CarMovement>().MoveFoward();
-                }
-            }
-            else
-            {
-                for (int i = 0; i > random1; i--)
-                {
-                    GetComponent<CarMovement>().MoveBack();
-                }
+                GetComponent<CarMovement>().MoveBack();
             }
         }
-        
-        
     }
 }
