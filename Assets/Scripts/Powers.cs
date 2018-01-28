@@ -327,7 +327,7 @@ public class Powers : MonoBehaviour {
         }
     }
 
-    //efecto aleatorio
+    //Avanza o retrocede dos posiciones.
     public void Kamikaze()
     {
         float random = Random.Range(1f,2f);
@@ -341,6 +341,35 @@ public class Powers : MonoBehaviour {
         else
         {
             for (int i = 0; i < 3; i++)
+            {
+                GetComponent<CarMovement>().MoveBack();
+            }
+        }
+    }
+
+
+    public void Laser()
+    {
+        GameObject[] cars = GameObject.FindGameObjectsWithTag("car");
+        float random1;
+        float random2;
+        for (int i = 0; i < cars.Length; i++)
+        {
+            random1 = Random.Range(0, cars.Length - 1);
+            random2 = Random.Range(0, cars.Length - 1);
+            GetComponent<CarMovement>().Swap2(cars[(int)random1], cars[(int)random2]);
+        }
+        random1 = Random.Range(-cars.Length, cars.Length - 1);
+        if (random1 >= 0)
+        {
+            for (int i = 0; i < random1; i++)
+            {
+                GetComponent<CarMovement>().MoveFoward();
+            }
+        }
+        else
+        {
+            for (int i = 0; i > random1; i--)
             {
                 GetComponent<CarMovement>().MoveBack();
             }

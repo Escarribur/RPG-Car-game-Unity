@@ -82,6 +82,17 @@ public class CarMovement : MonoBehaviour {
         }
     }
 
+    public void Swap2(GameObject car1, GameObject car2)
+    {
+        if (car1 && car2)
+        {
+            Vector2 temp = car1.transform.position;
+            car1.transform.position = car2.transform.position;
+            car2.transform.position = temp;
+
+        }
+    }
+
     public void MoveFoward()
     {
         GameObject carInFront = InFront();
