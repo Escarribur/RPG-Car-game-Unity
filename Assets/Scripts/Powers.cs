@@ -5,10 +5,11 @@ using UnityEngine;
 public class Powers : MonoBehaviour {
 
     GameObject car;
+    bool powerUsing;
 
     private void Start()
     {
-
+        powerUsing = false;
     }
 
     //utilities========================================================================
@@ -72,6 +73,21 @@ public class Powers : MonoBehaviour {
         ani.enabled = false;
         
         yield return null;
+    }
+
+    IEnumerator ShieldForSecs(Transform anim, float sec)
+    {
+        Animator ani = anim.GetComponent<Animator>();
+        SpriteRenderer spriRend = anim.GetComponent<SpriteRenderer>();
+
+        ani.enabled = true;
+        spriRend.enabled = true;
+        yield return new WaitForSeconds(sec);
+        ani.enabled = false;
+        spriRend.enabled = false;
+        DecreaseShieldCar(this.gameObject);
+        powerUsing = false;
+
     }
 
 
@@ -298,8 +314,18 @@ public class Powers : MonoBehaviour {
     //Proteje jugador de 1 poder
     public void SteelShield()
     {
-        IncreaseShieldCar(this.gameObject);
-        //animacion de escudo here!!!
+        
+        if (powerUsing == true)
+        {
+            Debug.Log("Ya usaste esta habilidad");
+        }
+        else
+        {
+            powerUsing = true;
+            IncreaseShieldCar(this.gameObject);
+            StartCoroutine(ShieldForSecs(this.transform.GetChild(1), 10f));
+        }
     }
+
 
 }
