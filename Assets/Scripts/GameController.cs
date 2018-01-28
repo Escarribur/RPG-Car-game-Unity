@@ -105,6 +105,11 @@ public class GameController : MonoBehaviour {
         player.GetComponent<Powers>().SteelShield();
     }
 
+    public void Kamikaze()
+    {
+        player.GetComponent<Powers>().Kamikaze();
+    }
+
     //inicializa valores nivel
     void Level01()
     {

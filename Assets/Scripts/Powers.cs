@@ -327,5 +327,23 @@ public class Powers : MonoBehaviour {
         }
     }
 
-
+    //efecto aleatorio
+    public void Kamikaze()
+    {
+        float random = Random.Range(1f,2f);
+        if (random < 1.5f)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                GetComponent<CarMovement>().MoveFoward();
+            }
+        }
+        else
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                GetComponent<CarMovement>().MoveBack();
+            }
+        }
+    }
 }
