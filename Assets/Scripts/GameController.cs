@@ -11,7 +11,6 @@ public class GameController : MonoBehaviour {
     public GameObject defensivePanel;
     public GameObject preparationPanel;
     public GameObject waitPanel;
-    public GameObject actualTurn;
 
 	// Use this for initialization
 
@@ -41,7 +40,7 @@ public class GameController : MonoBehaviour {
         {
             CheckPosition();
         }
-        if (Input.GetKeyDown("k"))
+        if (Input.GetKeyDown("k"))    //Con este boton inician los turnos!!!!
         {
             StartCoroutine(Turns(2));
         }
@@ -296,20 +295,19 @@ public class GameController : MonoBehaviour {
 
     IEnumerator Turns(int cantTurns)
     {
-        Vector2 posTurn;
         GameObject checkPosition = GameObject.Find("CheckPosition");
         for (int i = 0; i < cantTurns; i++)
         {
             Debug.Log("Turn " + i);
             foreach (var car in checkPosition.GetComponent<CheckPositionController>().autos)
             {
-                
-                posTurn = new Vector2(car.transform.position.x, car.transform.position.y + 7);
-                actualTurn.transform.position = posTurn;
+
+                car.transform.GetChild(3).GetComponent<SpriteRenderer>().enabled = true;
                 car.GetComponent<DriverStats>().state = DriverStats.DriverSM.Playing;
                 TimeToPlay();
                 yield return new WaitForSeconds(5f);
                 car.GetComponent<DriverStats>().state = DriverStats.DriverSM.Waiting;
+                car.transform.GetChild(3).GetComponent<SpriteRenderer>().enabled = false;
             }
             checkPosition.GetComponent<CheckPositionController>().UpdatePosicion();
         }
