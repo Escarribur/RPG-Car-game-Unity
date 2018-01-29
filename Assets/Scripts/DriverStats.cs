@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class DriverStats : MonoBehaviour {
 
+    public enum DriverSM
+    {
+        Playing,
+        Waiting,
+        Procesing
+    }
+
+
+
     public string driverName { get; set; }
     public int agility { get; set; }
     public int level { get; set; }
@@ -11,6 +20,7 @@ public class DriverStats : MonoBehaviour {
     public int haste { get; set; }
     public int reflex { get; set; }
     public int money { get; set; }
+    public DriverSM state { get; set; }
 
     public void SetPlayerStats(string driverName, int agility, int level, int selfControl, int haste, int reflex, int money)
     {
@@ -21,5 +31,6 @@ public class DriverStats : MonoBehaviour {
         this.haste = haste;
         this.reflex = reflex;
         this.money = money;
+        this.state = DriverSM.Waiting; 
     }
 }

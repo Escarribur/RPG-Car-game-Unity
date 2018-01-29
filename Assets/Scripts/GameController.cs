@@ -10,6 +10,8 @@ public class GameController : MonoBehaviour {
     public GameObject offenssivePanel;
     public GameObject defensivePanel;
     public GameObject preparationPanel;
+    public GameObject waitPanel;
+    public GameObject actualTurn;
 
 	// Use this for initialization
 
@@ -35,7 +37,16 @@ public class GameController : MonoBehaviour {
         {
             player.GetComponent<CarMovement>().MoveFoward();
         }
+        if (Input.GetKeyDown("p"))
+        {
+            CheckPosition();
+        }
+        if (Input.GetKeyDown("k"))
+        {
+            StartCoroutine(Turns(2));
+        }
 
+        
         DrawAttribute();
     }
 
@@ -59,6 +70,33 @@ public class GameController : MonoBehaviour {
     public void PreparationPanel()
     {
         ActiveDeactivePanel(preparationPanel, accionPanel);
+    }
+
+    public void WaitPanel()
+    {
+        ActiveDeactivePanel(waitPanel, accionPanel);
+    }
+
+    public void AccionPanelForce()
+    {
+        ActiveDeactivePanel(accionPanel, preparationPanel);
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
+        ActiveDeactivePanel(accionPanel, defensivePanel);
+        ActiveDeactivePanel(accionPanel, waitPanel);
+    }
+
+    public void TimeToPlay()
+    {
+        switch (player.GetComponent<DriverStats>().state)
+        {
+            case DriverStats.DriverSM.Playing:
+                AccionPanelForce();
+                break; 
+
+            case DriverStats.DriverSM.Waiting:
+                WaitPanel();
+                break;
+        }
     }
 
     //LLamada desde los botones =====================
@@ -243,6 +281,37 @@ public class GameController : MonoBehaviour {
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().shields.ToString();
             }
+        }
+    }
+
+
+    void CheckPosition()
+    {
+        foreach (var car in GameObject.Find("CheckPosition").GetComponent<CheckPositionController>().autos)
+        {
+            Debug.Log(car.name.ToString());
+        }
+        
+    }
+
+    IEnumerator Turns(int cantTurns)
+    {
+        Vector2 posTurn;
+        GameObject checkPosition = GameObject.Find("CheckPosition");
+        for (int i = 0; i < cantTurns; i++)
+        {
+            Debug.Log("Turn " + i);
+            foreach (var car in checkPosition.GetComponent<CheckPositionController>().autos)
+            {
+                
+                posTurn = new Vector2(car.transform.position.x, car.transform.position.y + 7);
+                actualTurn.transform.position = posTurn;
+                car.GetComponent<DriverStats>().state = DriverStats.DriverSM.Playing;
+                TimeToPlay();
+                yield return new WaitForSeconds(5f);
+                car.GetComponent<DriverStats>().state = DriverStats.DriverSM.Waiting;
+            }
+            checkPosition.GetComponent<CheckPositionController>().UpdatePosicion();
         }
     }
 
