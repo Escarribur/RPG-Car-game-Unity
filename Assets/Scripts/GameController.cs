@@ -6,6 +6,8 @@ public class GameController : MonoBehaviour {
 
     public List<GameObject> autos;
     public GameObject player;
+    public GameObject menuPanel;
+    public GameObject startPanel;
     public GameObject accionPanel;
     public GameObject offenssivePanel;
     public GameObject defensivePanel;
@@ -74,6 +76,11 @@ public class GameController : MonoBehaviour {
     public void WaitPanel()
     {
         ActiveDeactivePanel(waitPanel, accionPanel);
+    }
+
+    public void MenuPanel()
+    {
+        ActiveDeactivePanel(menuPanel, startPanel);
     }
 
     public void AccionPanelForce()
