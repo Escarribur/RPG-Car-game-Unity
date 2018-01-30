@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour {
     public GameObject defensivePanel;
     public GameObject preparationPanel;
     public GameObject waitPanel;
-
+    public GameObject level;
 	// Use this for initialization
 
 	void Start () {
@@ -23,9 +23,11 @@ public class GameController : MonoBehaviour {
         }
         player = GameObject.FindGameObjectWithTag("Player");
         autos.Add(player);
-        
 
-        Level01();
+        //inicia primer nivel
+        level.GetComponent<LevelController>().Level01();
+
+        
 	}
 	
 	// Update is called once per frame
@@ -200,23 +202,7 @@ public class GameController : MonoBehaviour {
         ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
-    //inicializa valores nivel
-    void Level01()
-    {
-        player.GetComponent<CarStats>().SetCarStats("R8", 12, 6, 22, 5, 5, 100, 0);
-        player.GetComponent<DriverStats>().SetPlayerStats("Escar", 30, 4, 60, 80, 60, 100);
-        int i = 0;
-        foreach (GameObject car in autos)
-        {
-            if (car.name != "Player")
-            {
-                //asignamiento pajero de  valores
-                car.GetComponent<CarStats>().SetCarStats("R" + i, 10 + i, 5, 20 + i, 5, 5, 100, 0);
-                car.GetComponent<DriverStats>().SetPlayerStats("car " + i, 28 + i, 2 + i, 58 + i, 78 + i, 58 + i, 98 + i);
-                i++;
-            }
-        }
-    }
+ 
 
 
 
