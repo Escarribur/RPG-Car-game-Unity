@@ -8,7 +8,8 @@ public class DriverStats : MonoBehaviour {
     {
         Playing,
         Waiting,
-        Procesing
+        Race,
+        Advance
     }
 
 

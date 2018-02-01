@@ -12,7 +12,9 @@ public class RepeatingBackground : MonoBehaviour {
     {
         positionInitial = transform.position.x;
         sRender = GetComponent<SpriteRenderer>();
-        groundHorizontalLength = sRender.size.x;
+        groundHorizontalLength = 20.48f;
+        //groundHorizontalLength = sRender.size.x;
+        //Debug.Log(this.name + ": position: " + positionInitial + " GroundHorizontalLength: " + groundHorizontalLength);
     }
 
 

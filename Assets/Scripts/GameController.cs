@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour {
         autos.Add(player);
 
         //inicia primer nivel
-        level.GetComponent<LevelController>().Level01();
+        //level.GetComponent<LevelController>().Level01();
 
         
 	}
