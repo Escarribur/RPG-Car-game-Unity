@@ -6,11 +6,14 @@ public class GameController : MonoBehaviour {
 
     public List<GameObject> autos;
     public GameObject player;
+    public GameObject menuPanel;
+    public GameObject startPanel;
     public GameObject accionPanel;
     public GameObject offenssivePanel;
     public GameObject defensivePanel;
     public GameObject preparationPanel;
-
+    public GameObject waitPanel;
+    public GameObject level;
 	// Use this for initialization
 
 	void Start () {
@@ -20,9 +23,11 @@ public class GameController : MonoBehaviour {
         }
         player = GameObject.FindGameObjectWithTag("Player");
         autos.Add(player);
-        
 
-        Level01();
+        //inicia primer nivel
+        level.GetComponent<LevelController>().Level01();
+
+        
 	}
 	
 	// Update is called once per frame
@@ -35,7 +40,16 @@ public class GameController : MonoBehaviour {
         {
             player.GetComponent<CarMovement>().MoveFoward();
         }
+        if (Input.GetKeyDown("p"))
+        {
+            CheckPosition();
+        }
+        if (Input.GetKeyDown("k"))    //Con este boton inician los turnos!!!!
+        {
+            StartCoroutine(Turns(2));
+        }
 
+        
         DrawAttribute();
     }
 
@@ -59,6 +73,38 @@ public class GameController : MonoBehaviour {
     public void PreparationPanel()
     {
         ActiveDeactivePanel(preparationPanel, accionPanel);
+    }
+
+    public void WaitPanel()
+    {
+        ActiveDeactivePanel(waitPanel, accionPanel);
+    }
+
+    public void MenuPanel()
+    {
+        ActiveDeactivePanel(menuPanel, startPanel);
+    }
+
+    public void AccionPanelForce()
+    {
+        ActiveDeactivePanel(accionPanel, preparationPanel);
+        ActiveDeactivePanel(accionPanel, offenssivePanel);
+        ActiveDeactivePanel(accionPanel, defensivePanel);
+        ActiveDeactivePanel(accionPanel, waitPanel);
+    }
+
+    public void TimeToPlay()
+    {
+        switch (player.GetComponent<DriverStats>().state)
+        {
+            case DriverStats.DriverSM.Playing:
+                AccionPanelForce();
+                break; 
+
+            case DriverStats.DriverSM.Waiting:
+                WaitPanel();
+                break;
+        }
     }
 
     //LLamada desde los botones =====================
@@ -156,23 +202,7 @@ public class GameController : MonoBehaviour {
         ActiveDeactivePanel(accionPanel, offenssivePanel);
     }
 
-    //inicializa valores nivel
-    void Level01()
-    {
-        player.GetComponent<CarStats>().SetCarStats("R8", 12, 6, 22, 5, 5, 100, 0);
-        player.GetComponent<DriverStats>().SetPlayerStats("Escar", 30, 4, 60, 80, 60, 100);
-        int i = 0;
-        foreach (GameObject car in autos)
-        {
-            if (car.name != "Player")
-            {
-                //asignamiento pajero de  valores
-                car.GetComponent<CarStats>().SetCarStats("R" + i, 10 + i, 5, 20 + i, 5, 5, 100, 0);
-                car.GetComponent<DriverStats>().SetPlayerStats("car " + i, 28 + i, 2 + i, 58 + i, 78 + i, 58 + i, 98 + i);
-                i++;
-            }
-        }
-    }
+ 
 
 
 
@@ -243,6 +273,36 @@ public class GameController : MonoBehaviour {
             {
                 stat.GetComponent<UnityEngine.UI.Text>().text = player.GetComponent<CarStats>().shields.ToString();
             }
+        }
+    }
+
+
+    void CheckPosition()
+    {
+        foreach (var car in GameObject.Find("CheckPosition").GetComponent<CheckPositionController>().autos)
+        {
+            Debug.Log(car.name.ToString());
+        }
+        
+    }
+
+    IEnumerator Turns(int cantTurns)
+    {
+        GameObject checkPosition = GameObject.Find("CheckPosition");
+        for (int i = 0; i < cantTurns; i++)
+        {
+            Debug.Log("Turn " + i);
+            foreach (var car in checkPosition.GetComponent<CheckPositionController>().autos)
+            {
+
+                car.transform.GetChild(3).GetComponent<SpriteRenderer>().enabled = true;
+                car.GetComponent<DriverStats>().state = DriverStats.DriverSM.Playing;
+                TimeToPlay();
+                yield return new WaitForSeconds(5f);
+                car.GetComponent<DriverStats>().state = DriverStats.DriverSM.Waiting;
+                car.transform.GetChild(3).GetComponent<SpriteRenderer>().enabled = false;
+            }
+            checkPosition.GetComponent<CheckPositionController>().UpdatePosicion();
         }
     }
 

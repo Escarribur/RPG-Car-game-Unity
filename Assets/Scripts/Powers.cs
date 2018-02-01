@@ -201,15 +201,9 @@ public class Powers : MonoBehaviour {
             carBehind.GetComponent<CarStats>().integrity -= 40;
             carBehind.GetComponent<CarStats>().velocity -= 20;
 
-            //Este hace visible la llamarada
             
             StartCoroutine(Animation(this.transform.GetChild(0)));
-            //this.GetComponentInChildren<Animator>().enabled = true;
-            //Debug.Log("Active? " + gameObject.activeInHierarchy);
-            //Este es el intento de activar el Player
-            //GameObject.FindGameObjectWithTag("Player").SetActive(true);
-            //ACA está la llamada de la corutina    
-            //StartCoroutine(GameObject.FindGameObjectWithTag("Flame").GetComponent<FlamethrowerPlayer>().Flaming());
+
         }
         if (effect == 1)
         {
